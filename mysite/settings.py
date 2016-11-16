@@ -25,8 +25,10 @@ SECRET_KEY = 'b2m-%kc^felbpyw%a0bszbt%j&q9&sg&c7u!@8bk$h#xbc+(i9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    '.nechetov.pythonanywhere.com',
+    '.nechetov.pythonanywhere.com.',
+]
 
 # Application definition
 
